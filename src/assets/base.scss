@@ -1,0 +1,70 @@
+@import './Vinnytsia_Fonts/VinnytsiaCity/VinnytsiaCity.css';
+@import './Vinnytsia_Fonts/VinnytsiaSansBold/VinnytsiaSansBold.css';
+@import './Vinnytsia_Fonts/VinnytsiaSansReg/VinnytsiaSansReg.css';
+@import './Vinnytsia_Fonts/VinnytsiaSerif/VinnytsiaSerif.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'KyivRegion';
+  src: url('./KyivRegion-Regular/KyivRegion-Regular.woff2') format('woff2'),
+    url('./KyivRegion-Regular/KyivRegion-Regular.woff') format('woff'),
+    url('./KyivRegion-Regular/KyivRegion-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mariupol';
+  src: url('./Mariupol/Mariupol-Regular/Mariupol-Regular.otf')
+    format('opentype');
+}
+@font-face {
+  font-family: 'Mariupol';
+  font-weight: 700;
+  src: url('./Mariupol/Mariupol-Bold/Mariupol-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Mariupol';
+  font-weight: 500;
+  src: url('./Mariupol/Mariupol-Medium/Mariupol-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Mariupol Symbols';
+  src: url('./Mariupol/Mariupol-Symbols/Mariupol-Symbols.otf')
+    format('opentype');
+}
+
+* {
+  @apply text-main-fg;
+  // font-family: 'Mariupol', sans-serif;
+  // font-family: 'VinnytsiaCity';
+  // font-family: 'VinnytsiaSansBold';
+  font-family: 'VinnytsiaSansReg';
+  // font-family: 'VinnytsiaSerif';
+}
+
+body {
+  @apply bg-main-bg;
+  min-height: 100%;
+}
+
+img {
+  position: relative;
+}
+
+img::before {
+  @apply text-main-bg bg-main-fg rounded-lg;
+  content: attr(alt);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}

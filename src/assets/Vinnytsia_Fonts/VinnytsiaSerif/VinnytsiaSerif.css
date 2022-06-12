@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'VinnytsiaSerif';
+    src: url('fonts/VinnytsiaSerif.eot');
+    src: url('fonts/VinnytsiaSerif.eot') format('embedded-opentype'),
+         url('fonts/VinnytsiaSerif.woff2') format('woff2'),
+         url('fonts/VinnytsiaSerif.woff') format('woff'),
+         url('fonts/VinnytsiaSerif.ttf') format('truetype'),
+         url('fonts/VinnytsiaSerif.svg#VinnytsiaSerif') format('svg');
+}

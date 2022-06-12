@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'VinnytsiaCity';
+  src: url('fonts/VinnytsiaCity.eot');
+  src: url('fonts/VinnytsiaCity.eot') format('embedded-opentype'),
+    url('fonts/VinnytsiaCity.woff2') format('woff2'),
+    url('fonts/VinnytsiaCity.woff') format('woff'),
+    url('fonts/VinnytsiaCity.ttf') format('truetype'),
+    url('fonts/VinnytsiaCity.svg#VinnytsiaCity') format('svg');
+}
