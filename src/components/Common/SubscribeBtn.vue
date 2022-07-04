@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 .subscribe-btn {
-  @apply rounded-full bg-main-fg text-main-bg py-1.5 px-6;
+  @apply rounded-full bg-main-fg text-main-bg py-1.5 px-6 text-sm sm:text-base;
   box-sizing: border-box;
   outline: none;
   position: relative;

@@ -3,11 +3,10 @@ import SubscribeBtn from '../Common/SubscribeBtn.vue';
 </script>
 
 <template>
-  <header class="font-bold flex flex-col pt-5">
-    <div class="w-full flex text-lg relative justify-center items-center">
-      <div class="text-2xl absolute left-0">№1</div>
-      <div>Понеділок, 24 серпня 2031 р.</div>
-      <div class="absolute right-0 flex flex-col items-center -top-2">
+  <header class="font-bold flex flex-col pt-2">
+    <div class="w-full flex text-lg relative justify-between items-center">
+      <div class="text-2xl">№<span class="text-3xl">&infin;</span></div>
+      <div class="flex flex-col items-center">
         <SubscribeBtn />
         <span class="opacity-80 text-sm">
           Від <del class="opacity-60 text-xs">5$</del>
@@ -15,14 +14,15 @@ import SubscribeBtn from '../Common/SubscribeBtn.vue';
         </span>
       </div>
     </div>
-    <div class="inline-flex items-center relative select-none type">
-      <b class="text-8xl mx-auto logo mt-40 tracking-wide"> Вїсник Ха </b>
+    <div class="inline-flex items-center relative select-none">
+      <b class="logo"> Вїсник Ха </b>
     </div>
   </header>
 </template>
 
 <style lang="scss" scoped>
 .logo {
+  @apply text-6xl sm:text-8xl lg:text-9xl mx-auto mt-5 tracking-wide;
   font-family: KyivRegion;
 
   position: relative;
@@ -34,7 +34,7 @@ import SubscribeBtn from '../Common/SubscribeBtn.vue';
   content: '~~~';
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 0.3em;
   height: 0;
   transform: translateX(-50%);
 }

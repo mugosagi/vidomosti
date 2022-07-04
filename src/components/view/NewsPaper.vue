@@ -4,7 +4,7 @@ import CityOverview from '../layout/CityOverview.vue';
 </script>
 
 <template>
-  <div class="max-w-screen-xl m-auto flex flex-col">
+  <div class="max-w-screen-xl m-auto flex flex-col px-5">
     <NewsHeader />
     <CityOverview />
 

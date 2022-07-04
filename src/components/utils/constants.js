@@ -1,54 +1,9 @@
 const weather = {
-  daily: [
-    {
-      temp: { day: 26.49, night: 19.74 },
-      humidity: 63,
-      wind_speed: 4.78, //m/s
-      weather: { icon: 'Clear', description: 'чисте небо' },
-    },
-    {
-      temp: { day: 24.78, night: 21.37 },
-      humidity: 48,
-      wind_speed: 3.69,
-      weather: { icon: 'Clear', description: 'чисте небо' },
-    },
-    {
-      temp: { day: 21.23, night: 16.04 },
-      humidity: 49,
-      wind_speed: 6.97,
-      weather: { icon: 'Rain', description: 'легкий дощ' },
-    },
-    {
-      temp: { day: 20.29, night: 16.37 },
-      humidity: 41,
-      wind_speed: 4.54,
-      weather: { icon: 'Clouds', description: 'кілька хмар' },
-    },
-    {
-      temp: { day: 22.55, night: 19.52 },
-      humidity: 36,
-      wind_speed: 3.23,
-      weather: { icon: 'Clouds', description: 'уривчасті хмари' },
-    },
-    {
-      temp: { day: 24.21, night: 16.82 },
-      humidity: 37,
-      wind_speed: 4.71,
-      weather: { icon: 'Rain', description: 'легкий дощ' },
-    },
-    {
-      temp: { day: 17.78, night: 19.68 },
-      humidity: 78,
-      wind_speed: 4.03,
-      weather: { icon: 'Rain', description: 'легкий дощ' },
-    },
-    {
-      temp: { day: 23.89, night: 20.6 },
-      humidity: 36,
-      wind_speed: 2.8,
-      weather: { icon: 'Clear', description: 'чисте небо' },
-    },
-  ],
+  temp: { day: 26.49, night: 19.74 },
+  humidity: 63,
+  wind_speed: 4.78, //m/s
+  clouds: 61,
+  description: 'чисте небо',
 };
 
 const currency = {
