@@ -22,7 +22,7 @@ import SubscribeBtn from '../Common/SubscribeBtn.vue';
 
 <style lang="scss" scoped>
 .logo {
-  @apply text-6xl sm:text-8xl lg:text-9xl mx-auto mt-5 tracking-wide;
+  @apply text-5xl sm:text-8xl lg:text-9xl mx-auto mt-5 tracking-wide;
   font-family: KyivRegion;
 
   position: relative;
